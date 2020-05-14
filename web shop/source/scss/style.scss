@@ -262,6 +262,16 @@ menu {
 	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
 }
 
+.article_img{
+	display: flex;
+	justify-content:center;
+}
+
+.article_img img {
+	max-width: 300px;
+	max-height: 220px;
+}
+
 .label__title{
 	grid-area:label__title;
 }
@@ -275,7 +285,7 @@ menu {
 }
 
 .article_label{
-	width: 90%;
+	width: 85%;
 	margin: 0 auto;
 	padding-top: 10px;
 	box-sizing:border-box;
